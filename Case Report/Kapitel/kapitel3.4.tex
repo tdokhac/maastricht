@@ -1,0 +1,17 @@
+\newpage
+\section{Combining Overbooking and Capacity Controls}
+\label{3.3}
+In the course of this chapter, a connection between overbooking and capacity controls will be drawn by illustrating different approaches for the single-resource case in particular and multiple-resource case in brief. 
+
+Single-resources, for example, refer to single flights, whereas multiple-resources\footnote{Also referred to as ''Network''. Networks in the airline industry, for example, are represented by Hub \& Spoke networks. A booking on one specific connection within this network influences capacities on another connection and therefore the total revenues. This correlation is called ''Network Effect''.\cite[p.93]{klein2008}} are the demand for a bundle of several connection flights \cite[p.149]{informs}. According to \citet[p.149]{informs}, many of the real world quantity-based revenue management problems can be accounted to network problems. However, they are solved as if they are a collection of independent single-resource problems. Solving single-resource problems proofed to be useful as building blocks in heuristics for solving the network case. The application of network problems methods itself is stated to increase revenues by approximately one to two percent \cite[p.1367]{boyd2003}.
+
+The fundamental goal of capacity controls within quantity-based revenue management is to maximize revenues by managing the admission or denial of incoming booking requests for single-resource or multiple-resource demands \cite[p.27]{talluri2004}. The capacity control for single-resources is managed with the rule of Littlewood, EMSR-a and EMSR-b methods. In the case of network problems, other methods are applied such as stochastic and dynamic models, approximative solutions, revenue oriented, and quantity oriented management methods \cite{klein2008}.
+\begin{figure}[htbp] 
+	\centering 
+	\label{fig:34}
+	\includegraphics[width=0.7\textwidth]{bild3.jpg}
+	\caption{Solution Approaches for the Combination of Capacity Controls and Overbooking}
+\end{figure}
+According to \citet[pp.160-161]{klein2008}, the integration of overbooking and capacity controls is generally done successively in practice (see figure \ref{fig:34}). Therefore, overbooking limits are firstly evaluated and followed up by capacity control methods. This implies that capacity control calculations are based on the determined overbooking capacity. Another possibility to integrate both methods is a simultaneous approach. In the course of the following subsections a selection of approaches for combining overbooking and capacity controls taken from \citet{klein2008} and \citet{talluri2004} will be illustrated. With regard to what has been said before and what can be found in current literature, simultaneous processing focuses on single flights and only few research has been done on network problems.
+
+% Diese und jene Quellen beschäftigen sich mit single, respektive multiple resource, Problemen. Im folgenden werden die Herangehensweisen von Body und Talluri dargestellt für single resources und multiple resources.

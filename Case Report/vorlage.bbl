@@ -1,0 +1,73 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Deloitte%
+}{%
+Deloitte%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+deloitte}
+\APACinsertmetastar {%
+deloitte}%
+\begin{APACrefauthors}%
+Deloitte.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {2015 Global health care outlook} {2015 global health care
+  outlook}\ \APACbVolEdTR {}{Report}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ragsdale%
+}{%
+Ragsdale%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+ragsdale}
+\APACinsertmetastar {%
+ragsdale}%
+\begin{APACrefauthors}%
+Ragsdale, C\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {Spreadsheet modeling and decision analysis} {Spreadsheet
+  modeling and decision analysis}\ [Book].
+\newblock
+\APACaddressPublisher{}{South-Western}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{The World Bank}%
+}{%
+{The World Bank}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+wb}
+\APACinsertmetastar {%
+wb}%
+\begin{APACrefauthors}%
+{The World Bank}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+(\BVOL\ 2015)\ [Web Page].
+\newblock
+\APACaddressPublisher{}{The World Bank}.
+\newblock
+\begin{APACrefURL}
+  \url{http://data.worldbank.org/data-catalog/world-development-indicators}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

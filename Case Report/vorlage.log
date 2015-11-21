@@ -1,0 +1,701 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.8)  21 NOV 2015 16:11
+entering extended mode
+**vorlage.tex
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbook.cls
+"
+Document Class: scrbook 2015/02/07 v3.16 KOMA-Script document class (book)
+
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.st
+y"
+Package: scrkbase 2015/02/07 v3.16 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
+"
+Package: scrbase 2015/02/07 v3.16 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.st
+y"
+Package: scrlfile 2015/02/07 v3.16 KOMA-Script package (loading files)
+
+Package scrlfile, 2015/02/07 v3.16 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\tocbasic.st
+y"
+Package: tocbasic 2015/02/07 v3.16 KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 118.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 119.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 120.
+Package tocbasic Info: defining new hook before heading of `' on input line 117
+5.
+Package scrbook Info: You've used standard option `12pt'.
+(scrbook)             This is correct!
+(scrbook)             Internally I'm using `fontsize=12pt'.
+(scrbook)             If you'd like to set the option with \KOMAoptions,
+(scrbook)             you'd have to use `fontsize=12pt' there
+(scrbook)             instead of `12pt', too.
+
+
+Class scrbook Warning: You've used obsolete option `bibtotoc'.
+(scrbook)              Usage of this option indicates an old document
+(scrbook)              and changes compatibility level using
+(scrbook)              `bibliography=totoc,version=first'.
+(scrbook)              If you don't want this, you should simply
+(scrbook)              replace option `bibtotoc' by `bibliography=totoc'.
+
+Class scrbook Info: Switching compatibility level to `first'.
+
+Class scrbook Warning: You've used obsolete option `liststotoc'.
+(scrbook)              Usage of this option indicates an old document
+(scrbook)              and changes compatibility level using
+(scrbook)              `listof=totoc,version=first'.
+(scrbook)              If you don't want this, you should simply
+(scrbook)              replace option `liststotoc' by `listof=totoc'.
+
+Class scrbook Info: Switching compatibility level to `first'.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 1712.
+
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrsize12pt
+.clo"
+File: scrsize12pt.clo 2015/02/07 v3.16 KOMA-Script font size class option (12pt
+)
+)
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.st
+y"
+Package: typearea 2015/02/07 v3.16 KOMA-Script package (type area)
+
+Package typearea, 2015/02/07 v3.16 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1342.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
+\bibindent=\dimen102
+) ("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip48
+\fb@frw=\dimen103
+\fb@frh=\dimen104
+\FrameRule=\dimen105
+\FrameSep=\dimen106
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\apacite\apacite.sty"
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count90
+\bibleftmargin=\skip49
+\bibindent=\skip50
+\bibparsep=\skip51
+\bibitemsep=\skip52
+\biblabelsep=\skip53
+)
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \citeyear on input line 735.
+\c@NAT@ctr=\count91
+)
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\mdwtools\mdwlist.sty"
+Package: mdwlist 1996/05/02 1.1 Various list-related things
+)
+
+Class scrbook Warning: Usage of package `parskip' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use option
+(scrbook)              `parskip' with one of it's several values.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `parskip' on input line 12.
+
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\parskip\parskip.sty"
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\germanb.ldf"
+Language: germanb 2014/10/10 v2.7b German support for babel (traditional orthog
+raphy)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count92
+\U@D=\dimen107
+)
+\l@austrian = a dialect from \language\l@german 
+Package babel Info: Making " an active character on input line 110.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen110
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count95
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count96
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen111
+\Fld@menulength=\count97
+\Field@Width=\dimen112
+\Fld@charsize=\dimen113
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip56
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks17
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\TX@col@width=\dimen116
+\TX@old@table=\dimen117
+\TX@old@col=\dimen118
+\TX@target=\dimen119
+\TX@delta=\dimen120
+\TX@cols=\count103
+\TX@ftn=\toks18
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count104
+\LTcapwidth=\dimen121
+\LT@head=\box27
+\LT@firsthead=\box28
+\LT@foot=\box29
+\LT@lastfoot=\box30
+\LT@cols=\count105
+\LT@rows=\count106
+\c@LT@tables=\count107
+\c@LT@chunks=\count108
+\LT@p@ftn=\toks19
+)
+Class scrbook Info: longtable captions redefined on input line 22.
+
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\srcltx\srcltx.sty"
+Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\src@lastline=\count109
+\src@new@everypar=\toks20
+\src@new@output=\toks21
+)
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count110
+\lst@gtempboxa=\box31
+\lst@token=\toks22
+\lst@length=\count111
+\lst@currlwidth=\dimen122
+\lst@column=\count112
+\lst@pos=\count113
+\lst@lostspace=\dimen123
+\lst@width=\dimen124
+\lst@newlines=\count114
+\lst@lineno=\count115
+\lst@maxwidth=\dimen125
+
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count116
+\lst@skipnumbers=\count117
+\lst@framebox=\box32
+)
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+ ("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\c@mydef=\count118
+\c@bsp=\count119
+ ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.aux"
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Titel\titel.aux")
+
+LaTeX Warning: Label `appendix' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+ ("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen126
+\scratchbox=\box33
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen127
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks24
+)
+\c@maskedRefs=\count126
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\apacite\english.apc"
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 33.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count127
+)
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.out")
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.out")
+\@outlinefile=\write3
+\c@lstlisting=\count128
+
+:<+ ./Titel/titel.tex
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Titel\titel.tex"
+<Bilder/logo-SBE.jpg, id=67, 839.2956pt x 298.716pt>
+File: Bilder/logo-SBE.jpg Graphic file (type jpg)
+ <use Bilder/logo-SBE.jpg>
+Package pdftex.def Info: Bilder/logo-SBE.jpg used on input line 9.
+(pdftex.def)             Requested size: 403.31511pt x 143.54613pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 38.
+) [1
+
+
+
+
+{C:/Users/Pui Pui/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
+Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilder/logo-SBE.jpg>]
+:<-
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 40.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.toc"
+[2
+
+
+])
+\tf@toc=\write4
+ [3]
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.lof")
+\tf@lof=\write5
+
+[4
+
+]
+Package srcltx Info: Expanded filename `./Kapitel/kapitel1' to `./Kapitel/kapit
+el1.tex' on input line 45.
+
+:<+ ./Kapitel/kapitel1.tex
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\kapitel1.t
+ex"
+Chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+)
+:<-
+Package srcltx Info: Expanded filename `./Kapitel/kapitel2' to `./Kapitel/kapit
+el2.tex' on input line 46.
+:<+ ./Kapitel/kapitel2.tex
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\kapitel2.t
+ex" [1
+
+
+]
+Chapter 2.
+)
+:<-
+Package srcltx Info: Expanded filename `./Kapitel/kapitel3' to `./Kapitel/kapit
+el3.tex' on input line 47.
+:<+ ./Kapitel/kapitel3.tex
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\kapitel3.t
+ex" [2
+
+]
+Chapter 3.
+)
+:<-
+Package srcltx Info: Expanded filename `./Kapitel/appendix' to `./Kapitel/appen
+dix.tex' on input line 48.
+:<+ ./Kapitel/appendix.tex
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix.t
+ex" [3
+
+]
+Chapter 4.
+)
+:<-
+Package srcltx Info: Expanded filename `./Kapitel/appendix1' to `./Kapitel/appe
+ndix1.tex' on input line 49.
+:<+ ./Kapitel/appendix1.tex
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix1.
+tex")
+:<-
+Package srcltx Info: Expanded filename `./Kapitel/appendix2' to `./Kapitel/appe
+ndix2.tex' on input line 50.
+:<+ ./Kapitel/appendix2.tex
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix2.
+tex")
+:<-
+Package srcltx Info: Expanded filename `./Kapitel/appendix3' to `./Kapitel/appe
+ndix3.tex' on input line 51.
+:<+ ./Kapitel/appendix3.tex
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix3.
+tex")
+:<-
+Package srcltx Info: Expanded filename `./Kapitel/appendix4' to `./Kapitel/appe
+ndix4.tex' on input line 52.
+:<+ ./Kapitel/appendix4.tex
+
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix4.
+tex")
+:<-
+[4
+
+] [5]
+Overfull \vbox (13.20946pt too high) has occurred while \output is active []
+
+
+[6]
+:<+ vorlage.bbl
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.bbl"
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 69.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+))
+:<-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
+[7
+
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+ ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.aux"
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Titel\titel.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+
+Package rerunfilecheck Warning: File `vorlage.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `vorlage.out':
+(rerunfilecheck)             Before: 1383C4B01AC5A8F2D0AD487C3BEBCE04;1952
+(rerunfilecheck)             After:  D6A7B4CC2B8EDC84D23251DCF46BFAA4;2145.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+ ) 
+Here is how much of TeX's memory you used:
+ 9874 strings out of 493921
+ 150460 string characters out of 3147277
+ 284565 words of memory out of 3000000
+ 12966 multiletter control sequences out of 15000+200000
+ 14345 words of font info for 34 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 40i,8n,54p,433b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/cm-super/cm-supe
+r-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx1
+440.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-supe
+r/sfrm1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/
+cm-super/sfrm1440.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/
+public/cm-super/sfrm1728.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts
+/type1/public/cm-super/sfsl1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.
+9/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/Pui Pui/AppData/Roaming/Mi
+KTeX/2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/Pui Pui/AppData/Roa
+ming/MiKTeX/2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Users/Pui Pui/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/Pui P
+ui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on vorlage.pdf (11 pages, 516710 bytes).
+PDF statistics:
+ 202 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+

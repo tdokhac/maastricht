@@ -1,0 +1,60 @@
+\documentclass[12pt,bibtotoc,liststotoc,twoside = false,paper=a4,headings=small]{scrbook}
+% Packages
+% -----------------------------------
+\usepackage{framed, color}
+%\usepackage[backend=biber,style=apa,bibstyle=authoryear]{biblatex}
+%\addbibresource{Literatur.bib}
+\usepackage{apacite} 				% Literatur-Referenzen: American Psycholog. Assoc.
+\usepackage{natbib}					
+\usepackage{mdwlist}
+\usepackage{parskip}
+%\setcitestyle{round,aysep={}} 		% Indizierg. in runden Klammern, zw. Autor u. Jahr
+\usepackage[latin1]{inputenc} 		% Umlaute im Text
+\usepackage[german, english]{babel} 			% Rechtschreibg.
+\usepackage[T1]{fontenc}
+%\hyphenation{voll-st\"andigen}
+\usepackage{graphicx} 				% Grafiken einfügen (pdf,png - aber jpg vermeiden)
+\graphicspath{{./Bilder/}}              	% Pfad zu den Bildern
+\usepackage{url}					% URL's formatieren (z.B. in Literatur) 
+\usepackage{hyperref} 				% für Hyperlinks in PDF-Dokumenten     
+\usepackage{tabularx} 				% bessere Gestaltung von Tabellen
+\usepackage{longtable} 				% 
+\usepackage[active]{srcltx}
+\usepackage{listings}
+\usepackage{setspace} 				% Zeileneinstellung
+\newtheorem{mydef}{Merksatz}  		% Falls Beispiele, Merksätze m. fortl. Nr. gebr. werden
+\newtheorem{bsp}{Beispiel}
+\rmfamily 							% Serifenschrift
+%\usepackage[margin=0.5in]{geometry}
+\addtolength{\oddsidemargin}{.15in}
+\addtolength{\evensidemargin}{-.15in}
+% Document
+% -----------------------------------
+\begin{document}
+
+\frontmatter 
+    \include{./Titel/titel} 			% Titelblatt
+    %\include{./Kapitel/abstract_deu} 	% Abstract auf Deutsch 
+    %\include{./Kapitel/abstract_eng} 	% Abstract in English
+    \onehalfspacing                  	% Zeilenabstand ab hier 1.5 zeilig
+    \tableofcontents 					% Inhaltsverzeichnis
+    \listoffigures 					 	% Abbildungsverzeichnis
+    
+% -----------------------------------
+\mainmatter 						% die einzelnen Kapitel
+    \input{./Kapitel/kapitel1}
+    \input{./Kapitel/kapitel2}
+    \input{./Kapitel/kapitel3}
+    \input{./Kapitel/appendix}
+    \input{./Kapitel/appendix1}
+    \input{./Kapitel/appendix2}
+    \input{./Kapitel/appendix3}
+    \input{./Kapitel/appendix4}
+
+% -----------------------------------
+\backmatter 
+%\printbibliography[maxnames=25]
+\bibliographystyle{apacite}			% bei natbib in deutsch
+\bibliography{./Literatur/rm_library}		% Literaturquellen einbinden 
+
+\end{document}

@@ -1,0 +1,34 @@
+\subsection{Network Resource Management} \label{ssec3.4.2}
+
+The following subsection is outlined in Accordance with \citet[pp.165-168][referring to \cite{karaesmen2004}]{klein2008}. The following model represents an extension of a \textit{Deterministic Linear Programming (DLP)} model. Within the framework of an DLP uncertain parameters are exchanged with the parameters expected values \cite[p.109]{klein2008}. The extended DLP is described by a notation hereinafter known as:
+\\
+\\
+\begin{tabular}{lll}
+	\textit{Decision variables}: &&\\
+	 $x_{i}$	& Amount of contingent of product $P_{i}$, $i\epsilon A^{h}$     &\\
+	 $y_{h}$    & Expected number of denied boardings on a flight \textit{h}&\\
+     $z_{h}$	& Overbooking limit on a flight \textit{h} &\\	
+     &&\\ 
+	\textit{Parameters}: &&\\
+	 $d_{h}$	& Average costs for denied boardings on a flight $\textit{h}$ &\\
+	 $r_{i}$  & Price (gross margin) from $P_{i}$ in money units, $i\epsilon A^{h}$\\
+	 $p_{h}$ & Probability that on a flight \textit{h} a product $P_{i}$ will be used, $i\epsilon A^{h}$ &\\		  
+			  &&\\
+	 $A^{h}$ & Amount of products, which use resource \textit{h}&\\
+	 $C_{h}$ & Capacity flight \textit{h}&\\
+	 $\overline{D}_{i}$ & Expected demand, $i\epsilon A^{h}$ &
+\end{tabular}
+\begin{equation} \label{eq:3.21}
+max \sum_{i\epsilon I} r_{i}\cdot x_{i} - \sum_{h\epsilon H} d_{h}\cdot y_{h}
+\end{equation}
+\begin{center}
+	\begin{tabular}{rlllll}
+\textit{s.t.} 	& $\sum_{i\epsilon A^{h}} x_{i}\leq z_{h}$ &    & $\forall$  & $h  \epsilon H$ & (1)\\
+		& $y_{h}\geq p_{h}\cdot z_{h}-c_{h}$            &    & $\forall$  & $h  \epsilon H$ & (2)\\
+		& $x_{i}\leq \overline{D}_{i}$ &             & $\forall$ & $i  \epsilon I$ & (3)  \\
+		& $z_{h}\geq c_{h}$ &             & $\forall$ & $h  \epsilon H$ & (4) \\
+		& $y_{h}\geq 0$     &             & $\forall$ & $h  \epsilon H$ & (5) \\
+		& $x_{i}\geq 0$     & integer     & $\forall$ & $i  \epsilon I$ & (6) 
+	\end{tabular}
+\end{center}
+The objective function \ref{eq:3.21} as stated above, maximizes total revenues under the condition of restrictions (1) to (6). The total revenue is determined by the difference of revenues, which are the sum of revenues times contingents, and denied service costs, which are the sum of absolute denied boardings times costs. In order to solve this model one must relax the integer assumption at first and then apply the simplex-algorithm for example. Following this, an approximation of bid-prices for the products can be found.

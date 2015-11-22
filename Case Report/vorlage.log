@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.8)  22 NOV 2015 17:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.8)  22 NOV 2015 22:00
 entering extended mode
 **vorlage.tex
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.tex"
@@ -630,39 +630,211 @@ png>] [4] <./Bilder/categoricals.png, id=182, 516.4896pt x 570.933pt>
 File: ./Bilder/categoricals.png Graphic file (type png)
 
 <use ./Bilder/categoricals.png>
-Package pdftex.def Info: ./Bilder/categoricals.png used on input line 21.
+Package pdftex.def Info: ./Bilder/categoricals.png used on input line 23.
 (pdftex.def)             Requested size: 313.69029pt x 346.76149pt.
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 25.
-
-<./Bilder/scatterplot.png, id=183, 598.235pt x 590.205pt>
+<./Bilder/scatterplot.png, id=184, 598.235pt x 590.205pt>
 File: ./Bilder/scatterplot.png Graphic file (type png)
 
 <use ./Bilder/scatterplot.png>
-Package pdftex.def Info: ./Bilder/scatterplot.png used on input line 27.
+Package pdftex.def Info: ./Bilder/scatterplot.png used on input line 30.
 (pdftex.def)             Requested size: 448.13095pt x 442.1213pt.
- [5 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilder/categori
-cals.png>] [6 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilde
-r/scatterplot.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 34.
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 33.
-
-<./Bilder/CorrPlot.png, id=195, 1231.60126pt x 1109.14375pt>
+<./Bilder/CorrPlot.png, id=187, 1231.60126pt x 1109.14375pt>
 File: ./Bilder/CorrPlot.png Graphic file (type png)
 
 <use ./Bilder/CorrPlot.png>
-Package pdftex.def Info: ./Bilder/CorrPlot.png used on input line 35.
+Package pdftex.def Info: ./Bilder/CorrPlot.png used on input line 37.
 (pdftex.def)             Requested size: 448.13095pt x 403.57326pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 39.
+               Default added (so using `tbp') on input line 42.
 
 
-Overfull \hbox (483.6554pt too wide) in paragraph at lines 43--78
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|[]\T1/cmr/bx/n/6 Av.
+ []
+
+
+Overfull \hbox (2.02069pt too wide) in paragraph at lines 48--48
+[]|\T1/cmr/bx/n/6 Mod.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\T1/cmr/bx/n/6 Sample
+ []
+
+
+Overfull \hbox (7.15413pt too wide) in paragraph at lines 48--48
+[]|\T1/cmr/bx/n/6 Curto-
+ []
+
+
+Overfull \hbox (2.84923pt too wide) in paragraph at lines 49--50
+[]|[]\T1/cmr/bx/n/6 Skew-
+ []
+
+
+Overfull \hbox (2.81923pt too wide) in paragraph at lines 50--50
+\T1/cmr/bx/n/6 Range| 
+ []
+
+
+Overfull \hbox (4.26436pt too wide) in paragraph at lines 50--50
+[]|\T1/cmr/bx/n/6 Min.| 
+ []
+
+
+Overfull \hbox (4.02658pt too wide) in paragraph at lines 51--51
+[]|[]\T1/cmr/bx/n/6 Conf.
+ []
+
+
+Overfull \hbox (3.34538pt too wide) in paragraph at lines 53--54
+[]|\T1/cmr/m/n/6 #N/A| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 54--54
+[]|\T1/cmr/m/n/6 (1,20)| 
+ []
+
+
+Overfull \hbox (5.6111pt too wide) in paragraph at lines 55--55
+[]|\T1/cmr/m/n/6 500.500| 
+ []
+
+
+Overfull \hbox (1.12457pt too wide) in paragraph at lines 55--55
+[]|\T1/cmr/m/n/6 17,92| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 58--58
+[]|\T1/cmr/m/n/6 (1,66)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 66--66
+[]|\T1/cmr/m/n/6 (0,58)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 70--70
+[]|\T1/cmr/m/n/6 (0,42)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 82--82
+[]|\T1/cmr/m/n/6 (1,04)| 
+ []
+
+
+Overfull \hbox (4.87624pt too wide) in paragraph at lines 93--93
+[]|[]\T1/cmr/m/n/6 3.271,26| 
+ []
+
+
+Overfull \hbox (4.87624pt too wide) in paragraph at lines 93--93
+[]|\T1/cmr/m/n/6 2.319,50| 
+ []
+
+
+Overfull \hbox (4.87624pt too wide) in paragraph at lines 94--94
+[]|[]\T1/cmr/m/n/6 2.822,74| 
+ []
+
+
+Overfull \hbox (5.18047pt too wide) in paragraph at lines 94--94
+[]|\T1/cmr/m/n/6 7.967.843,47| 
+ []
+
+
+Overfull \hbox (0.5226pt too wide) in paragraph at lines 95--95
+[]|[]\T1/cmr/m/n/6 18.174| 
+ []
+
+
+Overfull \hbox (1.94533pt too wide) in paragraph at lines 95--95
+[]|\T1/cmr/m/n/6 18.424| 
+ []
+
+
+Overfull \hbox (5.69655pt too wide) in paragraph at lines 95--95
+[]|\T1/cmr/m/n/6 3.271.258| 
+ []
+
+
+Overfull \hbox (4.79034pt too wide) in paragraph at lines 95--95
+[]|\T1/cmr/m/n/6 175,16| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 98--98
+[]|\T1/cmr/m/n/6 (0,68)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 102--102
+[]|\T1/cmr/m/n/6 (0,93)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 106--106
+[]|\T1/cmr/m/n/6 (1,21)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 114--114
+[]|\T1/cmr/m/n/6 (1,97)| 
+ []
+
+
+Overfull \hbox (3.44252pt too wide) in paragraph at lines 116--117
+[]|[]\T1/cmr/m/n/6 MALE_MAR_or_WID| 
+ []
+
+
+Overfull \hbox (4.23122pt too wide) in paragraph at lines 128--129
+[]|[]\T1/cmr/m/n/6 PRESENT_RESIDENT| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 130--130
+[]|\T1/cmr/m/n/6 (1,38)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 134--134
+[]|\T1/cmr/m/n/6 (1,06)| 
+ []
+
+
+Overfull \hbox (0.74869pt too wide) in paragraph at lines 136--137
+[]|[]\T1/cmr/m/n/6 PROP_UNKN_NONE| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/6 (1,11)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 170--170
+[]|\T1/cmr/m/n/6 (1,85)| 
+ []
+
+
+Overfull \hbox (1.81244pt too wide) in paragraph at lines 178--178
+[]|\T1/cmr/m/n/6 (1,24)| 
+ []
+
+
+Overfull \hbox (58.76645pt too wide) in paragraph at lines 46--181
  [][][] 
  []
 
@@ -673,8 +845,10 @@ ndix2.tex' on input line 51.
 :<+ ./Kapitel/appendix2.tex
 
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix2.
-tex" [7 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilder/Corr
-Plot.png
+tex" [5 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilder/cate
+goricals.png>] [6 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/B
+ilder/scatterplot.png>] [7 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case
+ Report/Bilder/CorrPlot.png
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Pui Pui/Desktop/maastricht/maastric
 ht/Case Report/Bilder/CorrPlot.png): large interlaced PNG might cause out of me
@@ -720,35 +894,41 @@ Package rerunfilecheck Info: File `vorlage.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 9882 strings out of 493921
- 150353 string characters out of 3147277
- 314293 words of memory out of 3000000
- 12966 multiletter control sequences out of 15000+200000
- 16668 words of font info for 37 fonts, out of 3000000 for 9000
+ 9891 strings out of 493921
+ 150449 string characters out of 3147277
+ 336341 words of memory out of 3000000
+ 12971 multiletter control sequences out of 15000+200000
+ 18963 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,16n,54p,1154b,352s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/cm-super/cm-supe
-r-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Pui Pui/AppData
-/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx0600.pfb><C:/Users/Pui Pui/
-AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/P
-ui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/
-Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfrm0600.p
-fb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfr
-m1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-su
-per/sfrm1440.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/publi
-c/cm-super/sfrm1728.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type
-1/public/cm-super/sfsl1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fon
-ts/type1/public/cm-super/sfsx1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/Pui Pui/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Users/Pui Pui/AppData/R
-oaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/Pui Pui/Ap
-pData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on vorlage.pdf (15 pages, 1088541 bytes).
+ 40i,12n,54p,1154b,352s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+{C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/cm-super/cm-super-
+t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Pui Pui/AppData/Roaming/MiK
+TeX/2.9/fonts/type1/public/cm-super/sfbx0600.pfb><C:/Users/Pui Pui/AppData/Roam
+ing/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/Pui Pui/AppDa
+ta/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/Pui Pu
+i/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users
+/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfrm0800.pfb><C
+:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfrm1000
+.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/s
+frm1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-
+super/sfrm1440.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/pub
+lic/cm-super/sfrm1728.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/ty
+pe1/public/cm-super/sfsl1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/f
+onts/type1/public/cm-super/sfsx1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTe
+X/2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/Pui Pui/AppData/Roamin
+g/MiKTeX/2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Users/Pui Pui/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/Pui Pui/
+AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on vorlage.pdf (15 pages, 1105817 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,5 +2,5 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Distribution of $RESPONSE$, percentage share, n=1.000 observations}}{3}{figure.1.1}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Distribution of $RESPONSE$ with other Categorical variables, percentage share of sub-categories of each category, n=1.000}}{5}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Title}}{6}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Correlation Matrix of German Credit Data Set, in \%}}{7}{figure.1.4}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Scatterplot Matrix of Numerical Variables, n=1.000}}{6}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Correlation Matrix of German Credit Data Set, n=1.000}}{7}{figure.1.4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.8)  21 NOV 2015 16:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.8)  22 NOV 2015 17:47
 entering extended mode
 **vorlage.tex
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.tex"
@@ -443,11 +443,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \c@mydef=\count118
 \c@bsp=\count119
  ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.aux"
-("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Titel\titel.aux")
-
-LaTeX Warning: Label `appendix' multiply defined.
-
-)
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Titel\titel.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
@@ -462,7 +458,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
- ("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii"
+("C:\Users\Pui Pui\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
 \scratchdimen=\dimen126
@@ -504,7 +500,7 @@ LaTeX Info: Redefining \nameref on input line 33.
 
 :<+ ./Titel/titel.tex
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Titel\titel.tex"
-<Bilder/logo-SBE.jpg, id=67, 839.2956pt x 298.716pt>
+<Bilder/logo-SBE.jpg, id=55, 839.2956pt x 298.716pt>
 File: Bilder/logo-SBE.jpg Graphic file (type jpg)
  <use Bilder/logo-SBE.jpg>
 Package pdftex.def Info: Bilder/logo-SBE.jpg used on input line 9.
@@ -527,25 +523,29 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 40.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.toc"
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.toc")
+\tf@toc=\write4
+
 [2
 
 
-])
-\tf@toc=\write4
- [3]
-("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.lof")
+] ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.lof")
 \tf@lof=\write5
+
+[3
+
+] ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.lot")
+\tf@lot=\write6
 
 [4
 
 ]
-Package srcltx Info: Expanded filename `./Kapitel/kapitel1' to `./Kapitel/kapit
-el1.tex' on input line 45.
+Package srcltx Info: Expanded filename `./Kapitel/appendix' to `./Kapitel/appen
+dix.tex' on input line 49.
 
-:<+ ./Kapitel/kapitel1.tex
+:<+ ./Kapitel/appendix.tex
 
-("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\kapitel1.t
+("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix.t
 ex"
 Chapter 1.
 
@@ -563,139 +563,192 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
-)
-:<-
-Package srcltx Info: Expanded filename `./Kapitel/kapitel2' to `./Kapitel/kapit
-el2.tex' on input line 46.
-:<+ ./Kapitel/kapitel2.tex
 
-("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\kapitel2.t
-ex" [1
+Overfull \hbox (5.11716pt too wide) in paragraph at lines 14--14
+[]|[]\T1/cmr/bx/n/6 Var.#| 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 18.
+
+Overfull \hbox (4.23122pt too wide) in paragraph at lines 48--48
+[]|\T1/cmr/m/n/6 PRESENT_RESIDENT| 
+ []
 
 
-]
-Chapter 2.
-)
-:<-
-Package srcltx Info: Expanded filename `./Kapitel/kapitel3' to `./Kapitel/kapit
-el3.tex' on input line 47.
-:<+ ./Kapitel/kapitel3.tex
+Overfull \hbox (0.74869pt too wide) in paragraph at lines 50--50
+[]|\T1/cmr/m/n/6 PROP_UNKN_NONE| 
+ []
 
-("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\kapitel3.t
-ex" [2
 
-]
-Chapter 3.
-)
-:<-
-Package srcltx Info: Expanded filename `./Kapitel/appendix' to `./Kapitel/appen
-dix.tex' on input line 48.
-:<+ ./Kapitel/appendix.tex
+Overfull \hbox (32.52484pt too wide) in paragraph at lines 12--57
+ [][][] 
+ []
 
-("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix.t
-ex" [3
 
-]
-Chapter 4.
+LaTeX Warning: Float too large for page by 25.09917pt on input line 57.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 58.
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 64--64
+[]|\T1/cmr/m/n/6 3: management/self-employed/Highly
+ []
+
+
+Overfull \hbox (32.52484pt too wide) in paragraph at lines 59--70
+[][][] 
+ []
+
 )
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/appendix1' to `./Kapitel/appe
-ndix1.tex' on input line 49.
+ndix1.tex' on input line 50.
 :<+ ./Kapitel/appendix1.tex
 
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix1.
-tex")
+tex" [1
+
+
+] [2] <./Bilder/response.png, id=164, 232.2276pt x 221.1462pt>
+File: ./Bilder/response.png Graphic file (type png)
+
+<use ./Bilder/response.png>
+Package pdftex.def Info: ./Bilder/response.png used on input line 6.
+(pdftex.def)             Requested size: 179.24963pt x 170.7015pt.
+
+Overfull \hbox (41.42427pt too wide) in paragraph at lines 3--11
+$\OML/cmm/m/it/12 CHECK[]ACC$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 HISTORY$\T1/cmr
+/m/n/12 , $\OML/cmm/m/it/12 SAV[]ACCT$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 PRESEN
+T[]RESIDENT$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 EMPLOYMENT$\T1/cmr/m/n/12 ,
+ []
+
+[3 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilder/response.
+png>] [4] <./Bilder/categoricals.png, id=182, 516.4896pt x 570.933pt>
+File: ./Bilder/categoricals.png Graphic file (type png)
+
+<use ./Bilder/categoricals.png>
+Package pdftex.def Info: ./Bilder/categoricals.png used on input line 21.
+(pdftex.def)             Requested size: 313.69029pt x 346.76149pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 25.
+
+<./Bilder/scatterplot.png, id=183, 598.235pt x 590.205pt>
+File: ./Bilder/scatterplot.png Graphic file (type png)
+
+<use ./Bilder/scatterplot.png>
+Package pdftex.def Info: ./Bilder/scatterplot.png used on input line 27.
+(pdftex.def)             Requested size: 448.13095pt x 442.1213pt.
+ [5 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilder/categori
+cals.png>] [6 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilde
+r/scatterplot.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 33.
+
+<./Bilder/CorrPlot.png, id=195, 1231.60126pt x 1109.14375pt>
+File: ./Bilder/CorrPlot.png Graphic file (type png)
+
+<use ./Bilder/CorrPlot.png>
+Package pdftex.def Info: ./Bilder/CorrPlot.png used on input line 35.
+(pdftex.def)             Requested size: 448.13095pt x 403.57326pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 39.
+
+
+Overfull \hbox (483.6554pt too wide) in paragraph at lines 43--78
+ [][][] 
+ []
+
+)
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/appendix2' to `./Kapitel/appe
-ndix2.tex' on input line 50.
+ndix2.tex' on input line 51.
 :<+ ./Kapitel/appendix2.tex
 
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix2.
-tex")
+tex" [7 <C:/Users/Pui Pui/Desktop/maastricht/maastricht/Case Report/Bilder/Corr
+Plot.png
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Pui Pui/Desktop/maastricht/maastric
+ht/Case Report/Bilder/CorrPlot.png): large interlaced PNG might cause out of me
+mory (use non-interlaced PNG to fix this)
+>] [8])
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/appendix3' to `./Kapitel/appe
-ndix3.tex' on input line 51.
+ndix3.tex' on input line 52.
 :<+ ./Kapitel/appendix3.tex
 
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix3.
 tex")
 :<-
 Package srcltx Info: Expanded filename `./Kapitel/appendix4' to `./Kapitel/appe
-ndix4.tex' on input line 52.
+ndix4.tex' on input line 53.
 :<+ ./Kapitel/appendix4.tex
 
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Kapitel\appendix4.
 tex")
 :<-
-[4
-
-] [5]
-Overfull \vbox (13.20946pt too high) has occurred while \output is active []
-
-
-[6]
+[9] [10]
 :<+ vorlage.bbl
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.bbl"
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 69.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 17.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
 :<-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
-[7
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+[11
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\vorlage.aux"
 ("C:\Users\Pui Pui\Desktop\maastricht\maastricht\Case Report\Titel\titel.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
-
-Package rerunfilecheck Warning: File `vorlage.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `vorlage.out':
-(rerunfilecheck)             Before: 1383C4B01AC5A8F2D0AD487C3BEBCE04;1952
-(rerunfilecheck)             After:  D6A7B4CC2B8EDC84D23251DCF46BFAA4;2145.
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package rerunfilecheck Info: File `vorlage.out' has not changed.
+(rerunfilecheck)             Checksum: 8F04E0F7C444385F8F0209C13D7D2B2A;1876.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 9874 strings out of 493921
- 150460 string characters out of 3147277
- 284565 words of memory out of 3000000
+ 9882 strings out of 493921
+ 150353 string characters out of 3147277
+ 314293 words of memory out of 3000000
  12966 multiletter control sequences out of 15000+200000
- 14345 words of font info for 34 fonts, out of 3000000 for 9000
+ 16668 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,8n,54p,433b,497s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,16n,54p,1154b,352s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/cm-super/cm-supe
-r-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx1
-440.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-supe
-r/sfrm1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/
-cm-super/sfrm1440.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/
-public/cm-super/sfrm1728.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts
-/type1/public/cm-super/sfsl1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.
-9/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/Pui Pui/AppData/Roaming/Mi
-KTeX/2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/Pui Pui/AppData/Roa
-ming/MiKTeX/2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Users/Pui Pui/AppD
-ata/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/Pui P
-ui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on vorlage.pdf (11 pages, 516710 bytes).
+r-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Pui Pui/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx0600.pfb><C:/Users/Pui Pui/
+AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/P
+ui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/
+Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfrm0600.p
+fb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfr
+m1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-su
+per/sfrm1440.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type1/publi
+c/cm-super/sfrm1728.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fonts/type
+1/public/cm-super/sfsl1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/cm-super/sfsx1200.pfb><C:/Users/Pui Pui/AppData/Roaming/MiKTeX/
+2.9/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/Pui Pui/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Users/Pui Pui/AppData/R
+oaming/MiKTeX/2.9/fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/Pui Pui/Ap
+pData/Roaming/MiKTeX/2.9/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on vorlage.pdf (15 pages, 1088541 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

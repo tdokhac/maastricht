@@ -1,1 +1,70 @@
 \chapter{Appendix} \label{appendix}
+In the following we will conduct the given data set in order to determine the optimal model and model specifications regarding credit risk classification prediction. The software programmes that are used for this purpose are: Microsoft Excel, IBM SPSS Modeler, and R. First of all the origin of the data set will be depicted and following this in section \ref{appendix1} the data set is being prepared for exploratory and analysis reasons. In section \ref{appendix2} we will develop classification models using the following data mining techniques: logistic regression, classification trees, and k-nearest neighbor. In section \ref{appendix3} the developed models' performances from section \ref{appendix2} will be evaluated using the confusion and cost/gain matrix. Finally the developed models' performances will be improved by altering the models' initial classification in section \ref{appendix4}.
+
+The German credit data set at hand was obtained from the homepage of \cite{shmueli}. \cite{shmueli} obtained the original data set from Professor Dr. Hans Hofmann who owned the chair of statistics and econometrics at University of Hamburg until 2008. The original data set (german.data \citep{mld}) was provided by Professor Hofmann in year 1994 and has served as important test data for the analysis and creation of credit-scoring algorithms. The original data set contained 7 numerical and 13 categorical attributes (in total 20 variables), these were transformed into numerical attributes in the data set of \cite{shmueli} (GermanCredit \citep{shmueli}). 
+
+For the analysis, and determination of an appropriate model, in the following the data set \textit{GermanCredit} from \cite{shmueli} will be used (see table \ref{dataset}). This data consists of a set of n=1.000 multivariate observation with 7 categorical, 6 numerical, 19 binary attributes (in total 32 variables) in the area of finance. In the following analysis the variable $ OBS\#$ describing the observation's number will be excluded because it does not any valuable information for the analysis. The dependent variable is $RESPONSE$.%Müsste man eigtl. noch etwas zu repräsentatitvheit des Daten sets sagen
+
+\begin{table}
+	\centering
+	\caption{Variables for the German Credit Dataset \citep{shmueli}}
+	\label{dataset}
+	\begin{tabular}{|p{0.6cm}|p{2.6cm}|p{5cm}|p{2cm}|p{4.5cm}|}
+	\hline
+	\textbf{{\tiny Var.\#}}	& \textbf{{\tiny Variable Name}} & \textbf{{\tiny Description}} & \textbf{{\tiny Variable Type}} & \textbf{{\tiny Code Description }}\\ \hline
+{\tiny 	1.}  & {\tiny OBS\#}  & {\tiny Observation No.}  & {\tiny Categorical}  &  \\ \hline
+	{\tiny 2.}	& {\tiny CHK\_ACCT}  & {\tiny Checking account status}  & {\tiny Categorical}  & {\tiny 0: < 0 DM} \\
+		&  &  &  & {\tiny 1: 0<..< 200 DM}  \\
+		&  &  &  & {\tiny 2: $\geq$ 200 DM} \\
+		&  &  &  & {\tiny 3: no checking account} \\ \hline
+	{\tiny 3.}	& {\tiny DURATION} & {\tiny Duration of credit in months}  & {\tiny Numerical} &  \\ \hline
+	{\tiny 4.}	& {\tiny HISTORY} & {\tiny Credit history} & {\tiny Categorical} & {\tiny 0: no credits taken} \\
+		&  &  &  & {\tiny 1: all credits at this bank paid back duly }\\
+		&  &  &  & {\tiny 2: existing credits paid back duly till now} \\
+		&  &  &  & {\tiny 3: delay in paying off in the past} \\
+		&  &  &  & {\tiny 4: critical account} \\ \hline
+	{\tiny 5.}	& {\tiny NEW\_CAR } & {\tiny Purpose of credit} & {\tiny Binary} & {\tiny car (new) 0: No, 1: Yes} \\ \hline
+	{\tiny 6.}	& {\tiny USED\_CAR} & {\tiny Purpose of credit} & {\tiny Binary} & {\tiny car (used) 0: No, 1: Yes} \\ \hline
+	{\tiny 7.}	& {\tiny FURNITURE} & {\tiny Purpose of credit} & {\tiny Binary} & {\tiny furniture/equipment 0: No, 1: Yes} \\ \hline
+	{\tiny 8.}	& {\tiny RADIO/TV}  & {\tiny Purpose of credit }& {\tiny Binary} & {\tiny radio/television 0: No, 1: Yes} \\ \hline
+	{\tiny 9.}	& {\tiny EDUCATION} & {\tiny Purpose of credit} & {\tiny Binary} & {\tiny education 0: No, 1: Yes} \\ \hline
+	{\tiny 10.}	& {\tiny RETRAINING}  & {\tiny Purpose of credit}  & {\tiny Binary} & {\tiny retraining 0: Yes, 1: No} \\ \hline
+	{\tiny 11.}	& {\tiny AMOUNT} & {\tiny Credit amount}  & {\tiny Numerical} &  \\ \hline
+	{\tiny 12.}	& {\tiny SAV\_ACCT} & {\tiny Average balance in savings account} & {\tiny Categorical} & {\tiny 0: < 100 DM} \\
+		&  &  &  & {\tiny 1: 11$\leq$..< 500 DM}\\
+		&  &  &  & {\tiny 2: 500$\leq$..< 1.000 DM} \\
+		&  &  &  & {\tiny 3: $\geq$ 1.000 DM} \\
+		&  &  &  &{\tiny  4: unknown/ no savings account} \\ \hline
+	{\tiny 13.}	& {\tiny EMPLOYMENT} & {\tiny Present employment since} & {\tiny Categorical}  & {\tiny 0: unemployed} \\
+		&  &  &  & {\tiny 1: < 1 year}\\
+		&  &  &  & {\tiny 2: 1 $\leq$..< 4 years} \\
+		&  &  &  & {\tiny 3: $\geq$ 7 years} \\ \hline
+	{\tiny 14.}	& {\tiny INSTALL\_RATE}  & {\tiny Installment rate as \% of disposable income} & {\tiny Numerical}  &  \\ \hline
+	{\tiny 15.}	& {\tiny MALE\_DIV} & {\tiny Applicant is male and divorced} & {\tiny Binary} & {\tiny 0: No, 1:Yes} \\ \hline
+	{\tiny 16.	}& {\tiny MALE\_SINGLE} & {\tiny Applicant is male and single} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	{\tiny 17.}	& {\tiny MALE\_MAR\_WID} & {\tiny Applicant is male and married or a widower} & {\tiny Binary}  & {\tiny 0: No, 1: Yes }\\ \hline
+	{\tiny 18.} & {\tiny CO\-APPLICANT} & {\tiny Application has a co\-applicant} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	{\tiny 19.} & {\tiny GUARANTOR} & {\tiny Applicant has a guarantor} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	{\tiny 20.} & {\tiny PRESENT\_RESIDENT} & {\tiny Present resident since - year} & {\tiny Categorical} &{\tiny  0: $\leq$ 1 year} \\ \hline
+	{\tiny 21.} & {\tiny REAL\_ESTATE }& {\tiny Applicant owns real estate} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	{\tiny 22.} & {\tiny PROP\_UNKN\_NONE} & {\tiny Applicant owns no property (or unknown)} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	{\tiny 23.} & {\tiny AGE} & {\tiny Age in years} & {\tiny Numerical} & \\ \hline
+	{\tiny 24.} & {\tiny OTHER\_INSTALL} & {\tiny Applicant has other installment plan credit} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	{\tiny 25.} & {\tiny RENT} & {\tiny Applicant rents} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	{\tiny 26.} & {\tiny OWN\_RES }& {\tiny Applicant owns residence} & {\tiny Binary} & {\tiny 0: No, 1: Yes}\\ \hline
+	{\tiny 27.} &{\tiny  NUM\_CREDITS} & {\tiny Number of existing credits at this bank} & {\tiny Numerical} & \\ \hline
+	\end{tabular}
+\end{table}	
+\begin{table}[]
+	\begin{tabular}{|p{0.6cm}|p{2.6cm}|p{5cm}|p{2cm}|p{4.5cm}|}
+		\hline
+		{\tiny 28.} & {\tiny JOB} & {\tiny Nature of job} & {\tiny Categorical} & {\tiny 0: unemployed/unskilled - non-resident} \\
+		&&&& {\tiny 1: unskilled - resident }\\ 
+		&&&& {\tiny 2: skilled employed/official} \\
+		&&&& {\tiny 3: management/self-employed/Highly qualified employee/officer} \\ \hline
+	{\tiny 29.} & {\tiny NUM\_DEPENDENTS} & {\tiny Number of people for whom liable to provide maintenance} & {\tiny Numerical} &\\ \hline
+	{\tiny 30. }& {\tiny TELEPHONE} &{\tiny  Applicant has phone in his or her name} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	{\tiny 31.} & {\tiny FOREIGN} &{\tiny  Foreign worker} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+{\tiny 	32.} & {\tiny RESPONSE} & {\tiny Credit rating is good} & {\tiny Binary} & {\tiny 0: No, 1: Yes} \\ \hline
+	\end{tabular}
+\end{table}

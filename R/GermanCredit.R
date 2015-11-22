@@ -3,6 +3,7 @@ install.packages("RColorBrewer")
 install.packages("PerformanceAnalytics")
 library(corrplot)
 library(RColorBrewer)
+library(car) # for scatterplot
 data <- read.csv("C:\\Users\\Pui Pui\\Desktop\\maastricht\\maastricht\\GermanCredit.csv", sep = ";", header=TRUE)
 subset <- data[,2:32]
 data_matrix <- data.matrix(subset)
@@ -65,3 +66,7 @@ flattenSquareMatrix(cor.prob(subset))
 library(PerformanceAnalytics)
 chart.Correlation(subset)
 
+# Scatterplot
+numerical.set=data.frame(data[3],data[11],data[14],data[23],data[27],data[29]) # substract all numerical variables from subset
+pairs(~DURATION+AMOUNT+INSTALL_RATE+AGE+NUM_CREDITS+NUM_DEPENDENTS, 
+                  data=numerical.set)

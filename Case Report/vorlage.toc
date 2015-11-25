@@ -2,13 +2,13 @@
 \contentsline {chapter}{\nonumberline List of Figures}{iii}{chapter*.2}
 \contentsline {chapter}{\nonumberline List of Tables}{iv}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Appendix}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Review the predictor variables and guess what their role in a credit decision might be. Are there any surprises in the data?}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Devide the data into training and validation partitions, and develop classification models using the following data mining techniques: logistic regression, classification trees, and k-nearest neighbor}{10}{section.1.2}
-\contentsline {section}{\numberline {1.3}Choose one model from each technique and report the confusion matrix and the cost/gain matrix for the validation data. Which technique has the most net profit?}{10}{section.1.3}
-\contentsline {section}{\numberline {1.4}Let us try and improve our performance. Rather than accept the initial classification of all applicants credit status, use the predicted probability of sucess in logistic regression ..where success means 1.. as a basis for selecting the best credit risk first, followed by poorer risk applicants.}{10}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Sort the validation on predicted probability of success.}{10}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}For each case, calculate the net profit of extending credit.}{10}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Add another column for cumulative net profit.}{10}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}How far into the validation data do you go to get the maximum net profit?(Often, this is specified as a percentile or rounded to deciles.)}{10}{subsection.1.4.4}
-\contentsline {subsection}{\numberline {1.4.5}If this logistic regression model is scored to future applicants, what 'probability of success' cutoff should be used in extending credit?}{10}{subsection.1.4.5}
-\contentsline {chapter}{\nonumberline Bibliography}{11}{chapter*.7}
+\contentsline {section}{\numberline {1.1}German Credit Data Exploration and Dimension Reduction}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Devide the data into training and validation partitions, and develop classification models using the following data mining techniques: logistic regression, classification trees, and k-nearest neighbor}{11}{section.1.2}
+\contentsline {section}{\numberline {1.3}Choose one model from each technique and report the confusion matrix and the cost/gain matrix for the validation data. Which technique has the most net profit?}{11}{section.1.3}
+\contentsline {section}{\numberline {1.4}Let us try and improve our performance. Rather than accept the initial classification of all applicants credit status, use the predicted probability of sucess in logistic regression ..where success means 1.. as a basis for selecting the best credit risk first, followed by poorer risk applicants.}{11}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Sort the validation on predicted probability of success.}{11}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}For each case, calculate the net profit of extending credit.}{11}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Add another column for cumulative net profit.}{11}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}How far into the validation data do you go to get the maximum net profit?(Often, this is specified as a percentile or rounded to deciles.)}{11}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.5}If this logistic regression model is scored to future applicants, what 'probability of success' cutoff should be used in extending credit?}{11}{subsection.1.4.5}
+\contentsline {chapter}{\nonumberline Bibliography}{12}{chapter*.7}

@@ -1,7 +1,7 @@
 \BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
 \BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Appendix}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Review the predictor variables and guess what their role in a credit decision might be. Are there any surprises in the data?}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.1}{German Credit Data Exploration and Dimension Reduction}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.2}{Devide the data into training and validation partitions, and develop classification models using the following data mining techniques: logistic regression, classification trees, and k-nearest neighbor}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.3}{Choose one model from each technique and report the confusion matrix and the cost/gain matrix for the validation data. Which technique has the most net profit?}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.4}{Let us try and improve our performance. Rather than accept the initial classification of all applicants credit status, use the predicted probability of sucess in logistic regression ..where success means 1.. as a basis for selecting the best credit risk first, followed by poorer risk applicants.}{chapter.1}% 7

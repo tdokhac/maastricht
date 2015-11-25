@@ -1,72 +1,51 @@
+##### Packages and libraries
 install.packages("corrplot")
 install.packages("RColorBrewer")
 install.packages("PerformanceAnalytics")
+install.packages("Hmisc")
 library(corrplot)
 library(RColorBrewer)
 library(car) # for scatterplot
-data <- read.csv("C:\\Users\\Pui Pui\\Desktop\\maastricht\\maastricht\\GermanCredit.csv", sep = ";", header=TRUE)
+library(Hmisc)
+##### Include data set
+data <- read.csv("C:\\Users\\Pui Pui\\Desktop\\maastricht\\maastricht\\R\\GermanCredit.csv", sep = ";", header=TRUE)
+##### Excluding OBS#
 subset <- data[,2:32]
+##### Create correlation matrix either pearson, kendall or spearman method
 data_matrix <- data.matrix(subset)
-corr_matrix <- cor(data_matrix, use="complete.obs", method="kendall") 
-head(round(corr_matrix,2))
-corrplot(corr_matrix, type="upper", order="hclust", sig.level=0.01)
+corr_matrix_pearson <- cor(data_matrix, use="complete.obs") 
+corr_matrix_kendall <- cor(data_matrix, use="complete.obs", method="kendall") 
+corr_matrix_spearman <- cor(data_matrix, use="complete.obs", method="spearman") 
+head(round(corr_matrix_pearson,2))
+##### Plot correlation matrix (different styles)
+corrplot(corr_matrix_pearson, method="color")
+corrplot(corr_matrix_pearson, type="upper", order="hclust", sig.level=0.05)
 
-
-#create data with some correlation structure
-##subset
-
-#create corrleation matrix
-cor_subset=cor(subset, use="complete.obs")
-cor_subset
-#plot cor matrix
-##squares, variables as %
-corrplot(cor_subset, order="AOE", method="square", tl.pos="lt", 
-         type="upper", tl.col="black",tl.cex=0.6,tl.srt=45,
-         addCoef.col="black", addCoefasPercent = TRUE,
-         p.mat = 1-abs(cor_subset), sig.level=0.50,insig="blank")
-
-
-## Correlation matrix with p-values. See http://goo.gl/nahmV for documentation of this function
-cor.prob <- function (X, dfr = nrow(X) - 2) {
-  R <- cor(X, use="pairwise.complete.obs")
-  above <- row(R) < col(R)
-  r2 <- R[above]^2
-  Fstat <- r2 * dfr/(1 - r2)
-  R[above] <- 1 - pf(Fstat, 1, dfr)
-  R[row(R) == col(R)] <- NA
-  R
+cor.mtest <- function(mat, conf.level = 0.95) {
+  mat <- as.matrix(mat)
+  n <- ncol(mat)
+  p.mat <- lowCI.mat <- uppCI.mat <- matrix(NA, n, n)
+  diag(p.mat) <- 0
+  diag(lowCI.mat) <- diag(uppCI.mat) <- 1
+  for (i in 1:(n - 1)) {
+    for (j in (i + 1):n) {
+      tmp <- cor.test(mat[, i], mat[, j], conf.level = conf.level)
+      p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      lowCI.mat[i, j] <- lowCI.mat[j, i] <- tmp$conf.int[1]
+      uppCI.mat[i, j] <- uppCI.mat[j, i] <- tmp$conf.int[2]
+    }
+  }
+  return(list(p.mat, lowCI.mat, uppCI.mat))
 }
 
-## Use this to dump the cor.prob output to a 4 column matrix
-## with row/column indices, correlation, and p-value.
-## See StackOverflow question: http://goo.gl/fCUcQ
-flattenSquareMatrix <- function(m) {
-  if( (class(m) != "matrix") | (nrow(m) != ncol(m))) stop("Must be a square matrix.") 
-  if(!identical(rownames(m), colnames(m))) stop("Row and column names must be equal.")
-  ut <- upper.tri(m)
-  data.frame(i = rownames(m)[row(m)[ut]],
-             j = rownames(m)[col(m)[ut]],
-             cor=t(m)[ut],
-             p=m[ut])
-}
-
-# get some data from the mtcars built-in dataset
-#mydata <- mtcars[, c(1,3,4,5,6)]
-
-# correlation matrix
-cor(subset)
-
-# correlation matrix with p-values
-cor.prob(subset)
-
-# "flatten" that table
-flattenSquareMatrix(cor.prob(subset))
-
-# plot the data
-library(PerformanceAnalytics)
-chart.Correlation(subset)
-
-# Scatterplot
-numerical.set=data.frame(data[3],data[11],data[14],data[23],data[27],data[29]) # substract all numerical variables from subset
+res1 <- cor.mtest(subset, 0.95)
+res2 <- cor.mtest(subset, 0.99)
+corrplot(corr_matrix_pearson, method="color", p.mat = res1[[1]], diag=FALSE, sig.level = 0.05, tl.col = "black", tl.offset = 0.4, tl.srt = 90, type="upper")
+##### Scatterplots
+numerical.set=data.frame(log(data[3]),log(data[11]),data[14],log(data[23]),data[27],data[29]) # substract all numerical variables from subset
 pairs(~DURATION+AMOUNT+INSTALL_RATE+AGE+NUM_CREDITS+NUM_DEPENDENTS, 
                   data=numerical.set)
+
+numerical.set=data.frame(log(data[3]),log(data[11]),log(data[23])) # substract all numerical variables from subset
+pairs(~DURATION+AMOUNT+AGE, 
+      data=numerical.set)
